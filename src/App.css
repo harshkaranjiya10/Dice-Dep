@@ -1,0 +1,57 @@
+body {
+  height: 740px;
+  max-width: 1800px;
+  border-radius: 5px;  
+  background-color: wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: 'karla';
+}
+
+
+
+.dies-container {
+  display: grid;
+  grid-template: auto auto / repeat(5, 1fr);
+  gap: 20px;
+}
+
+.dies-face {
+
+  width: 50px;
+  height: 50px;
+  box-shadow: 0px 4px 4px #00000086;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dies-num {
+  font-size: 2rem;
+}
+
+.rolldice {
+  height: 50px;
+  width: 100px;
+  border: none;
+  border-radius: 6px;
+  background-color: #5035FF;
+  color: white;
+  font-size: 1.2rem;
+  font-family: 'karla';
+  cursor: pointer;
+  margin-left: 115px;
+  margin-top: 125px;
+}
+
+.rolldice:focus {
+  outline: none;
+}
+
+.rolldice:active {
+  box-shadow : inset 5px 5px 10px -3px rgba(0, 0 , 0, 0.7)
+}
